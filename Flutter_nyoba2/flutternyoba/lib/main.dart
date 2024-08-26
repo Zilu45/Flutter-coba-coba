@@ -3,6 +3,7 @@ import 'package:flutternyoba/AlignmentWidget.dart';
 import 'package:flutternyoba/Container.dart';
 import 'package:flutternyoba/KalenderT.dart';
 import 'package:flutternyoba/Tes2.dart';
+import 'package:flutternyoba/Transform.dart';
 import 'package:flutternyoba/image_doksli.dart';
 import 'Dialog.dart';
 import 'Textfield.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ImageDoksli(),
+      home: Twidget(),
     );
   }
 }

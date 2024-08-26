@@ -12,7 +12,7 @@ class Ctes extends StatelessWidget {
         body: Container(
           child: ElevatedButton(
             onPressed: () {},
-            child: Text("Button",
+            child: Text("Buttn",
             style: TextStyle(fontSize: 20
             ),
             ),

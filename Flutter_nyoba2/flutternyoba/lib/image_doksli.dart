@@ -5,10 +5,14 @@ class ImageDoksli extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Image(image:
-     AssetImage(
-      'Doksli/Arknights-Typhon-Arknights-2284952-wallhere.com.jpg'
-      )
-      );
+    return Column(
+      children: [
+        Image(image:
+         AssetImage(
+          'Doksli/Arknights-Typhon-Arknights-2284952-wallhere.com.jpg'
+          )
+          ),
+      ],
+    );
   }
 }
