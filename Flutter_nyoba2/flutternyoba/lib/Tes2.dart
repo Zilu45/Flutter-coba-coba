@@ -1,4 +1,8 @@
+import 'dart:js_interop';
+
 import 'package:flutter/material.dart';
+import 'package:flutternyoba/KalenderT.dart';
+import 'package:flutternyoba/Textfield.dart';
 import 'Dialog.dart';
 
 class Tes2 extends StatelessWidget {
@@ -27,7 +31,9 @@ class Tes2 extends StatelessWidget {
             const Center(
               child: Text("Namaku"),
             ),
+            Textfield(),
             DWidget(),
+            dateW(title: "Tanggal",)
           ],
         ),
            bottomNavigationBar: BottomNavigationBar(

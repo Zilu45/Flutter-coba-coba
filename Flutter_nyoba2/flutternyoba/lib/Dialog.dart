@@ -34,7 +34,7 @@ showAlertDialog(BuildContext context){
  );
 
  AlertDialog alert = AlertDialog(
-  title: Text("MY TITLE"),
+  title: Text("MY TITleeeE"),
  content: Text("INI okookokoko"),
  actions: [okButton], 
  );
