@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutternyoba/row.dart';
 
 class cwidget extends StatelessWidget {
   const cwidget({super.key});
@@ -7,7 +8,7 @@ class cwidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Contoh column dan row pada widget",
+        title: Text("Contoh column",
         ),
       ),
       body: Column(

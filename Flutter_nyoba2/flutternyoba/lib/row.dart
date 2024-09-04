@@ -5,7 +5,11 @@ class Rwidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Contoh Row"),
+      ),
+     body: Row(
      children: [
       Container(
         color: Colors.black,
@@ -17,6 +21,7 @@ class Rwidget extends StatelessWidget {
         ),
       )
      ],
+    ),
     );
   }
 }
