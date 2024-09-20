@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutternyoba/row.dart';
+import 'package:flutternyoba/Praktikum/row.dart';
 
 class cwidget extends StatelessWidget {
   const cwidget({super.key});

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutternyoba/BeritaBola.dart';
-import 'package:flutternyoba/Desain.dart';
-import 'package:flutternyoba/Design_terserah.dart';
-import 'package:flutternyoba/Tes2.dart';
-import 'package:flutternyoba/coba3.dart';
-import 'stackPosition.dart';
+import 'package:flutternyoba/Tugas/BeritaBola.dart';
+import 'package:flutternyoba/Tugas/Desain.dart';
+import 'package:flutternyoba/Praktikum/Design_terserah.dart';
+import 'package:flutternyoba/Praktikum/GridView.dart';
+import 'package:flutternyoba/Praktikum/Ok.dart';
+import 'package:flutternyoba/Praktikum/Tes2.dart';
+import 'Tugas/stackPosition.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -17,7 +18,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DANA(),
+      initialRoute: '/',
+      routes: {
+        '/': (_) => DANA(),
+        '/Top Up': (_) => BeritaW(),
+      }
     );
   }
 }

@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutternyoba/KalenderT.dart';
-import 'package:flutternyoba/TesR.dart';
-import 'package:flutternyoba/Textfield.dart';
+import 'package:flutternyoba/Praktikum/KalenderT.dart';
+import 'package:flutternyoba/Praktikum/TesR.dart';
+import 'package:flutternyoba/Praktikum/Textfield.dart';
 import 'Dialog.dart';
 
 class Tes2 extends StatelessWidget {
@@ -32,8 +32,8 @@ class Tes2 extends StatelessWidget {
               child: Text("Namaku"),
             ),
             // Textfield(),
-            // DWidget(),
-            // dateW(title: "Tanggal",)
+            DWidget(),
+            dateW(title: "Tanggal",)
           //  RwidgetT()
            ],
         ),

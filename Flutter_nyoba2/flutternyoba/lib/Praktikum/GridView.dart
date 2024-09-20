@@ -9,15 +9,13 @@ class Gwidget extends StatelessWidget {
         title: Text("Contoh GridView"),
       ),
  body: GridView.count(
-          crossAxisCount: 2,
+          crossAxisCount: 5,
           children: <Widget>[
             Container(
               color: Colors.green,
               alignment: Alignment.center,
-              child: Text("Satu",
-                  style: TextStyle(fontSize: 30, color: Colors.white)),
-              height: 200.0,
-              width: 200.0,
+              child:
+              Icon(Icons.person),
             ),
             Container(
               color: Colors.red,
